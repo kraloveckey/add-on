@@ -1,0 +1,6 @@
+pip3 install pytelegrambotapi
+# request and bs4 for work with Censys and Exploit-DB.
+pip3 install requests
+pip3 install bs4
+# wafw00f for create a WAF detection.
+pip3 install wafw00f
