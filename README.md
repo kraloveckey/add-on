@@ -21,9 +21,11 @@ To set up the bot, you need to:
 4. Use the bot after /start:
 
     ● First, let's see if the site has firewall protection: /waf https://site.com
+      
       Answer: The site https://site.com is behind Cloudflare (Cloudflare Inc.) WAF.
       
     ● So there isn't point in scanning now, let's try to find the real IP and scan: /scan IP.
+      
       Answer: Opened Ports 22 80 443
       
     ● Now we want to know in more detail about what is on the ports: /searchbyip IP.
