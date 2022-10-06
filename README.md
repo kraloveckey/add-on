@@ -19,16 +19,25 @@ To set up the bot, you need to:
 2. Place the token (TOKEN_BOT) and users ID (RESTRICTED_IDS) in config.py.
 3. Run bot.py.
 4. Use the bot after /start:
+
     ● First, let's see if the site has firewall protection: /waf https://site.com
       Answer: The site https://site.com is behind Cloudflare (Cloudflare Inc.) WAF.
+      
     ● So there isn't point in scanning now, let's try to find the real IP and scan: /scan IP.
       Answer: Opened Ports 22 80 443
+      
     ● Now we want to know in more detail about what is on the ports: /searchbyip IP.
+    
     ● Let's try to find exploits for openssh VERSION: /searchsploit openssh VERSION.
-      From the response, we get the following exploits suitable for the version. 
+      From the response, we get the following exploits suitable for the version.
+      
 
 There are following command for bot:
+
 /searchbyip IP — Gets information from search.censys.io about the IP.
+
 /searchbydomain DOMAIN — Searches for IPS by given domain, can be usefull when site is behind WAF.
+
 /scan IP/DOMAIN — Scan targets for opened ports, by default it scans from port 1, to 65535 with 5000 threads, you should test diffrent numbers of threads to get fastest scan time on your server.
+
 /searchsploit NAME — Searches for exploits in exploit-db by name.
