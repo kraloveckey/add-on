@@ -1,7 +1,5 @@
 # add-on
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/kraloveckey)
-
 add-on is telegram bot for basic web-application analysis
 
 # What for?
@@ -41,3 +39,9 @@ There are following command for bot:
 - `/searchbydomain DOMAIN` — Searches for IPS by given domain, can be usefull when site is behind WAF.
 - `/scan IP/DOMAIN` — Scan targets for opened ports, by default it scans from port 1, to 65535 with 5000 threads, you should test diffrent numbers of threads to get fastest scan time on your server.
 - `/searchsploit NAME` — Searches for exploits in exploit-db by name.
+
+---
+
+<a href="https://www.paypal.com/donate/?hosted_button_id=GWWLEXEF3XL92">
+  <img src="https://raw.githubusercontent.com/kraloveckey/kraloveckey/refs/heads/main/.assets/paypal-donate-button.png" alt="Donate with PayPal" width="225" height="100"/>
+</a>
